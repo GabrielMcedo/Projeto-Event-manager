@@ -1,0 +1,51 @@
+.event-card {
+  background: #6a0dad;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 200px;
+}
+
+.evento-titulo {
+  color: #ffffff; /* Altera a cor do texto para branco */
+  font-weight: bold; /* Torna o texto mais destacado */
+  font-size: 1.5rem; /* Ajusta o tamanho do texto para melhor visualização */
+}
+
+.event-card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.event-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.event-card button {
+  padding: 10px;
+  background: #7b2cbf;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.event-card button:hover {
+  background: #5a189a;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+}
