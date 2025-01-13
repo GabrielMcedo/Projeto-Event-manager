@@ -6,7 +6,7 @@ const EventModal = ({ salvarEvento, evento, fecharModal }) => {
   const [previewImagem, setPreviewImagem] = useState(evento.imagem || '');
 
   useEffect(() => {
-    setLocalEvento({ ...evento }); // Atualiza o estado local quando o modal abre
+    setLocalEvento({ ...evento });
   }, [evento]);
 
   const handleChange = (e) => {
@@ -27,7 +27,7 @@ const EventModal = ({ salvarEvento, evento, fecharModal }) => {
   };
 
   const handleSave = () => {
-    salvarEvento(localEvento); // Envia o evento atualizado ao componente pai
+    salvarEvento(localEvento);
   };
 
   return (

@@ -9,9 +9,9 @@
 }
 
 .evento-titulo {
-  color: #ffffff; /* Altera a cor do texto para branco */
-  font-weight: bold; /* Torna o texto mais destacado */
-  font-size: 1.5rem; /* Ajusta o tamanho do texto para melhor visualização */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .event-card h3 {

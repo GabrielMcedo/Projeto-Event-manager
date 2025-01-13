@@ -9,7 +9,7 @@ const EventCard = ({ evento, onExcluir, onEditar }) => {
       <p><strong>Data:</strong> {evento.data}</p>
       <p><strong>Localização:</strong> {evento.localizacao}</p>
       <div className="event-actions">
-        <button onClick={() => onEditar(evento)}>Editar</button> {/* Botão de editar */}
+        <button onClick={() => onEditar(evento)}>Editar</button>
         <button onClick={() => onExcluir(evento.id)}>Excluir</button>
       </div>
     </div>

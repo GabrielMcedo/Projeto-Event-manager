@@ -23,12 +23,12 @@ const Home = () => {
   }, [navigate]);
 
   const handleAdicionarEvento = () => {
-    setEventoAtual({ nome: '', data: '', localizacao: '', imagem: '' }); // Novo evento
+    setEventoAtual({ nome: '', data: '', localizacao: '', imagem: '' });
     setModalAberto(true);
   };
 
   const handleEditarEvento = (evento) => {
-    setEventoAtual(evento); // Edita evento existente
+    setEventoAtual(evento);
     setModalAberto(true);
   };
 
